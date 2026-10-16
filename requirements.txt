@@ -1,0 +1,12 @@
+librosa==0.11.0
+matplotlib==3.10.9
+numpy==2.2.6
+pyroomacoustics==0.10.1
+pyworld==0.3.5
+scipy==1.15.3
+soundfile==0.14.0
+torch==2.14.1
+torchaudio==2.11.0
+transformers==5.18.0
+setuptools<81
+huggingface_hub==1.33.0

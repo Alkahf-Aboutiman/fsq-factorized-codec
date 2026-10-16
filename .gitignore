@@ -1,0 +1,6 @@
+data/
+rir_bank.pkl
+__pycache__/
+/*.wav
+.venv/
+data
