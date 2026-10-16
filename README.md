@@ -49,6 +49,11 @@ python eval_env.py && python diag_rt60.py && python diag_deltart60.py
 LibriSpeech is downloaded to `./data` by the scripts. `setuptools<81` is required by `pyworld`.
 Config A was trained with an earlier version of `train_fsq.py` (same configuration).
 
+## Acknowledgements
+
+This project was developed by Alkahf Aboutiman with the assistance of Claude (Anthropic) for code drafting, debugging and writing. All experiments were run, and all results reviewed, by the author.
+
+
 ## License and attribution
 
 Code: MIT (see `LICENSE`). Builds on [Amphion](https://github.com/open-mmlab/Amphion) (MIT) and the FACodec checkpoints
