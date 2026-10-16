@@ -15,7 +15,7 @@ LibriSpeech test-clean, 500 utterances (at most 12 s), Whisper-small, text norma
 | original audio | 4.2% [3.6, 4.9] | |
 
 Paired differences (FSQ minus RVQ, same utterances): 2.4 kbps +0.31 pt [-0.13, +0.74]; 1.6 kbps -1.25 pt [-7.75, +2.08].
-At 4.8 kbps the FSQ residual costs about +1.8 pt.
+At 4.8 kbps, adding the FSQ residual raises WER by about 1.0 pt relative to FSQ without residual (6.5% vs 5.5%), and FSQ is 1.8 pt above the RVQ at the same rate (6.5% vs 4.7%). These are point estimates; see the intervals above.
 
 Errors are heavy-tailed. At 1.6 kbps the per-sentence median WER is 0.0% for RVQ and 5.3% for FSQ, and 1.4% vs 1.8% of sentences
 have more than 50% errors, so we read 1.6 kbps as "comparable, no demonstrated advantage".

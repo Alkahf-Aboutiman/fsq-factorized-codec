@@ -26,6 +26,7 @@ All numbers, with 95% bootstrap confidence intervals and controls, are in [RESUL
 
 One training run per configuration; one ASR (Whisper-small); one dataset (LibriSpeech test-clean); synthetic simulated rooms only;
 no RVQ reference below 1.6 kbps. Explanations for the FSQ residual failure and the renderer's over-reverberation are untested hypotheses.
+No random seed is fixed in `train_fsq.py` and `train_env.py`; re-running training gives slightly different numbers. The reported results come from a single run per configuration.
 
 ## Reproducing
 
